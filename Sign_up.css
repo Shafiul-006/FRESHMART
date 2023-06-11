@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:url(/IMAGES/gro_back.jpg) no-repeat;
+    background-size: cover;
+}
+.sign-up-form{
+    border: 2px solid #574983;
+    width: 25rem;
+    height: 100%;
+    /* background-color: gray; */
+    padding:20px;
+    margin: 5% auto;
+    text-align: center;
+    justify-content: center;
+    border-radius: 8px;
+    /* position: absolute; */
+    /* right: 50rem; */
+}
+
+.sign-up-form:hover{
+    box-shadow: 0px 0px 4px 5px #426fb7;
+    transition: .5s linear;
+}
+.sign-up-form h1{
+    color:#1c8adb;
+    margin-bottom: 15px;
+    padding: 1rem;
+}
+
+.input-box{
+    border-radius: 20px;
+    padding: 1rem;
+    margin: 10px 0;
+    width: 90%;
+    border: 1px solid #999;
+    outline: none;
+}
+
+button{
+    color:#fff;width: 100%;
+    padding: 10px;
+    border-radius: 20px;font-size: 15px;
+    outline:none;border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+.gog-btn{
+    background-color: #21afde;
+}
+.sign-up-btn{
+    background-color: #21afde;
+}
+a{
+    text-decoration: none;
+    color: tomato;
+}
+
+hr{
+    margin-top: 1rem;
+    margin-left: 30px;
+    width: 80%;
+}
+
+.or{
+    background-color: white;
+    width: 30px;
+    margin: -12.2px auto 10px;
+    color: black;
+    border-radius: 4px;
+}
+.sign-up-form .use i{
+    /* background-color:gray; */
+    font-size: 3rem;
+    border-radius: 50%;
+    color: #1c8adb;
+    /* background-color:green; */
+
+}
+
+.sign-up-form .use{
+     margin-top: -59px;
+}
+P{
+    color: #fff;
+    margin: 1rem;
+    font-size: 1.3rem;
+}
