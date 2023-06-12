@@ -355,6 +355,11 @@ section{
 .products .product-slider{
     border: 0px solid;
     padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(10rem,1fr));
+    gap: 1.5rem;
+    align-items: justify;
+    text-align: center;
 }
 
 .products .product-slider:first-child{
@@ -362,34 +367,48 @@ section{
 }
 
 .products .product-slider .box{
-    border: 0px solid red;
+    /* border: 2px solid red;
     background:#fff;
+    width: 40rem;
     border-radius: .5rem;
     text-align: center;
     padding: 3rem 2rem;
     box-shadow: var(--box-shadow);
-    transition: .2s linear;
+    transition: .2s linear; */
+    display: inline-block;
+    height: 35rem;
+    width: 32%;
+    border: 0px solid red;
+    padding: 1rem 1rem;
+    margin: .3rem;
+    background-color: #fff;
+    outline: #130f40;
+    outline-offset: -1 rem;
+    text-align: center;
+    /* align-items: center; */
+    box-shadow: var(--box-shadow);
 }
 
 .products .product-slider .box:hover{
     box-shadow: 1px 1px 5px 4px green;
+    box-shadow: 1px 1px 5px 4px green;
 }
 .products .product-slider .box img{
     height: 20rem;
-    
+    width: 50%;
 }
 .products .product-slider .box h1{
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     color:var(--black);
 }
 .products .product-slider .box .price{
-    font-size: 2rem;
+    font-size: 1.2rem;
     color: var(--black);
     padding:.5rem 0;
 }
 
 .products .product-slider .box i{
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: orangered;
     padding: .5rem 0;
 }
