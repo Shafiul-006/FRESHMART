@@ -167,7 +167,7 @@ body{
     background:#fff;
     text-align:center;
     width:20rem;
-    height:29rem;
+    height:31rem;
 }
 .headclass .login-form.active{
     right:2rem;
@@ -228,7 +228,7 @@ h3{
         font-size: 1.5rem;
     }
 }
-@media (max-width:768px){
+@media (max-width:1215px){
     #menu-btn{
     display: inline-block;
     }
@@ -379,7 +379,7 @@ section{
     height: 35rem;
     width: 32%;
     border: 0px solid red;
-    padding: 1rem 1rem;
+    padding: .5rem .5rem;
     margin: .3rem;
     background-color: #fff;
     outline: #130f40;
@@ -391,15 +391,18 @@ section{
 
 .products .product-slider .box:hover{
     box-shadow: 1px 1px 5px 4px green;
-    box-shadow: 1px 1px 5px 4px green;
 }
 .products .product-slider .box img{
-    height: 20rem;
+    height: 17rem;
     width: 50%;
 }
 .products .product-slider .box h1{
     font-size: 1.8rem;
     color:var(--black);
+}
+.products .product-slider .box h4{
+    font-size: 1.2rem;
+    color:black;
 }
 .products .product-slider .box .price{
     font-size: 1.2rem;
