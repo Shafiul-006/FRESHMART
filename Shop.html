@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="/CSS/shop.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div id="search-container">
+            <input type="search" id="search-input" placeholder="Search product">
+            <button id="search">Search</button>
+        </div>
+        <div id="buttons">
+            <button class="button-value"onclick="filterProduct('all')">ALL</button>
+            <button class="button-value"onclick="filterProduct('Vegetables')">Vegetables</button>
+            <button class="button-value"onclick="filterProduct('meat')">Meat</button>
+            <button class="button-value"onclick="filterProduct('Fish')">Fish</button>
+            <button class="button-value"onclick="filterProduct('others')">Others</button>
+        </div>
+        <div id="products"></div>
+    </div>
+    <script src="/JS/shop.js"></script>
+</body>
+</html>
